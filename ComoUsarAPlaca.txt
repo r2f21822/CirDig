@@ -1,0 +1,11 @@
+1)Compile Design
+2)Assignments -> Device : Coloca pra Cyclone III
+3)Assignemtns -> Device : Seleciona "Specific device selected in 'Available devices' list"
+E clica no nome da placa, e dá OK. (EP3C16F484C6N)
+4)Assignments -> Pin Planner : Seta os pinos
+5)Fecha o pin planner e compila tudo de novo
+6)Conecta a placa
+7)Program Device -> Hardware Setup -> Seleciona USB-Blaster
+8)Mode deve estar em JTAG
+9)Dá Start
+*)As vezes tem que clicar em Add File -> output_files -> adicionar arquivo.sof
